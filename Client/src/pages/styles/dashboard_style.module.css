@@ -1,0 +1,125 @@
+div {
+  box-sizing: border-box;
+}
+
+.dashboard {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.information {
+  display: flexbox;
+  flex-direction: column;
+  float: left;
+  width: 30%;
+  height: 100%;
+  border: solid rgb(99, 46, 112);
+}
+
+.userinfo {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  background-color: #181c4d;
+}
+
+.avatar {
+  width: 15%;
+  height: 100%;
+  float: left;
+  color: white;
+  font-size: 12vh;
+  font-family: "Lucida Sans Unicode";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome {
+  color: white;
+  font-size: 5vh;
+  font-family: serif;
+  display: flex;
+  width: 70%;
+  height: 100%;
+  float: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 4vh;
+  font-family: serif;
+  display: flex;
+  width: 85%;
+  height: 100%;
+  float: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.settings {
+  cursor: pointer;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  float: left;
+  color: white;
+  font-size: 4vh;
+  font-family: "Lucida Sans Unicode";
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contacts {
+  width: 100%;
+  height: 45%;
+}
+
+.contactTitle {
+  width: 100%;
+  height: 15%;
+  background-color: #252A62;
+}
+
+.constactList {
+  width: 100%;
+  height: 85%;
+  background-color: #343B81;
+}
+
+.chatRooms {
+  width: 100%;
+  height: 45%;
+}
+
+.chatTitle {
+  width: 100%;
+  height: 15%;
+  background-color: #252A62;
+}
+
+.chatList {
+  width: 100%;
+  height: 85%;
+  background-color: #343B81;
+}
+
+.chatsView {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
+}

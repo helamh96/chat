@@ -1,0 +1,83 @@
+body {
+  background: #252A62;
+  background: linear-gradient(90deg, #252A62 27%, #343B81 100%);
+}
+
+#title {
+  text-align: center;
+}
+
+.container {
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ddd;
+  background: #fff;
+  margin: auto;
+  width: 35%;
+  height: 80%;
+  margin-top: 5%;
+  background: rgba(245, 245, 245, 0.699);
+  align-items: center;
+  text-align: center;
+}
+
+form {
+  height: 100%;
+  width: 100%;
+}
+
+.section {
+  padding: 2%;
+}
+
+.title {
+  color: #252A62;
+  font-size: 4vh;
+  font-family: serif;
+  padding-bottom: 2%;
+}
+
+.field > input {
+  border-radius: 10px;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 3%;
+  border: 2px #252A62;
+  width: 80%;
+}
+
+.button > input {
+  background-color: red;
+  border-radius: 10px;
+  height: 100%;
+  width: 80%;
+  margin-top: 3%;
+}
+
+#loginbtn {
+  height: 5%;
+  color: #252A62;
+  font-family: serif;
+  padding: 6% auto;
+  border-radius: 10px;
+  background: white;
+  border: 2px solid #252A62;
+}
+
+.signup {
+  text-align: right;
+}
+
+.section > .signup > a {
+  color: #252A62;
+  text-decoration: none;
+}
+
+.login_btn {
+  background-color: white;
+  width: 80%;
+}
+
+.section > .signup > a:visited {
+  text-decoration: none;
+  color: #252A62;
+}
